@@ -1,0 +1,75 @@
+html{
+    background-color: #3a3a3a;
+}
+
+h1 {
+    text-align:center;
+    box-shadow: 0px 0px 5px 2px black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 7px;
+    
+}
+
+#h1_title{
+    font-size:20px;
+}
+
+
+
+#login_bar{
+    width:200px;
+    padding:10px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 2px black;
+    border-radius:7px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* #login_link {
+    text-decoration: none;
+    color: black;
+}
+
+#main_link{
+    text-decoration: none;
+      color: black;
+  } */
+
+#menu_bar{
+    height:150px;
+    width:400px;
+    padding:10px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 2px black;
+    border-radius:7px;
+}
+
+#menu_list{
+    font-size:20px;
+    font-weight: bold;
+}
+
+#news_bar{
+    width:450px;
+    padding:10px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 2px black;
+    border-radius:7px;
+}
+
+#grid_menu{
+    display:grid;
+    grid-template-columns:450px 1fr;
+}
+
+@media(max-width:700px){
+    #grid_menu{
+        display:block;
+    }
+}
